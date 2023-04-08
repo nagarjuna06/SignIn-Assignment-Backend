@@ -1,0 +1,11 @@
+POST http://localhost:5000/signIn
+Content-Type: application/json
+
+{
+    "email":"nagarjuna@gmail.com",
+    "password":"nagarjuna@2022"
+}
+###
+
+GET http://localhost:5000/home
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6Im5hZ2FyanVuYUBnbWFpbC5jb20iLCJfaWQiOiI2NDMwZTMxNDA0ZGZmMWJiODk5MWEzNDkiLCJpYXQiOjE2ODA5MjczMDksImV4cCI6MTY4MzUxOTMwOX0.BYJiohk7Ne4YGCs_fOPN8LP2AfiOuW5RI3sF54UFUQs
